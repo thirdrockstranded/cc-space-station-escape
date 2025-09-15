@@ -11,6 +11,7 @@ This is a learning project designed as preparation for a larger **Alternate Real
 **Theme:** Post-apocalyptic survival with sci-fi horror elements
 
 ### Narrative Hook
+
 - Player wakes up in medical bay after alien invasion has begun
 - The same portal-opening aliens from Alternate Reality have attacked the station
 - Most crew are missing/dead, station systems failing
@@ -20,18 +21,21 @@ This is a learning project designed as preparation for a larger **Alternate Real
 ## Core Gameplay Loop
 
 ### 1. Exploration Phase (Primary Focus)
+
 - Navigate procedurally generated station levels
 - Manage limited resources (flashlight battery, oxygen, food)
 - Search containers/rooms for supplies and lore
 - Avoid or sneak past alien hunters when possible
 
 ### 2. Resource Management Phase (Secondary Focus)
+
 - Oxygen recyclers failing (limited air in sealed sections)
 - Power cells for doors/elevators running down
 - Emergency rations scattered around
 - Makeshift weapons from engineering tools
 
 ### 3. Combat Phase (Tertiary Focus)
+
 - Real-time combat system
 - Environmental hazards
 - Risk/reward decision making
@@ -44,6 +48,7 @@ This is a learning project designed as preparation for a larger **Alternate Real
 **Art Style:** Retro/pixelated aesthetic matching AR project goals
 
 ### Why Godot?
+
 - Excellent 2D capabilities with pixel-perfect rendering
 - Strong 3D support for potential future AR project
 - Node-based architecture maps well to software engineering principles
@@ -53,7 +58,9 @@ This is a learning project designed as preparation for a larger **Alternate Real
 ## Starting Implementation
 
 ### Med Bay Opening Sequence
+
 **Environmental Storytelling:**
+
 - Player wakes on medical bed, IV attached
 - Flickering lights, sparking panels
 - Medical equipment beeping/silent
@@ -61,6 +68,7 @@ This is a learning project designed as preparation for a larger **Alternate Real
 - Covered body on nearby bed
 
 **Tutorial Elements:**
+
 - Medical terminal (interface tutorial)
 - Scattered supplies (inventory introduction)
 - Emergency flashlight (lighting mechanics)
@@ -68,6 +76,7 @@ This is a learning project designed as preparation for a larger **Alternate Real
 - Station schematic (layout reference)
 
 **First Gameplay Beats:**
+
 1. Examine surroundings (interaction system)
 2. Find flashlight (visibility mechanics)
 3. Access terminal (interface + lore)
@@ -78,6 +87,7 @@ This is a learning project designed as preparation for a larger **Alternate Real
 ### Core Systems to Build First
 
 **Exploration Mechanics:**
+
 - Smooth WASD movement with collision
 - Flashlight cone with battery drain
 - Fog of war system
@@ -86,12 +96,14 @@ This is a learning project designed as preparation for a larger **Alternate Real
 - Audio cues for discovery/danger
 
 **Level Generation:**
+
 - Rectangular rooms connected by corridors
 - Room types: medical, storage, living quarters, labs, maintenance
 - Logical item placement
 - Connectivity validation
 
 **Progression Gates:**
+
 - Locked doors (keycards/tools required)
 - Debris blocking paths
 - Hazard zones requiring equipment
@@ -100,6 +112,7 @@ This is a learning project designed as preparation for a larger **Alternate Real
 ## Technical Implementation Notes
 
 ### Godot-Specific Tools:
+
 - `TileMap` for level generation
 - `Area2D` for searchable containers
 - `RayCast2D` for flashlight visibility
@@ -107,6 +120,7 @@ This is a learning project designed as preparation for a larger **Alternate Real
 - State machines for AI behaviors
 
 ### Version Control Setup
+
 - **Primary:** Git with Git LFS for large assets
 - Track: `*.png`, `*.jpg`, `*.wav`, `*.ogg`, `*.fbx`
 - Add `.godot/` to `.gitignore`
@@ -115,6 +129,7 @@ This is a learning project designed as preparation for a larger **Alternate Real
 ## Skills Transfer to AR Project
 
 This roguelike will provide hands-on experience with:
+
 - Character stats and progression systems
 - Real-time movement and collision
 - Inventory management
@@ -127,11 +142,13 @@ This roguelike will provide hands-on experience with:
 ## Development Approach
 
 **Priorities:**
+
 1. **Exploration** - Core movement, discovery, and navigation
 2. **Resource Management** - Limited supplies create tension
 3. **Combat** - Action systems for player agency
 
 **Scope Management:**
+
 - Start with single station level
 - Focus on core loop satisfaction
 - Build complexity iteratively
@@ -140,6 +157,7 @@ This roguelike will provide hands-on experience with:
 ## Connection to Alternate Reality Remake
 
 This project serves as a practical training ground for the ambitious AR remake, sharing:
+
 - Same alien antagonists (narrative continuity)
 - Real-time gameplay mechanics
 - Resource scarcity and tough choices
