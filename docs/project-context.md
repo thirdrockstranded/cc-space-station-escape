@@ -9,6 +9,7 @@ This is a learning project designed as preparation for a larger **Alternate Real
 **Setting:** Space station under alien attack
 **Genre:** Real-time roguelike with resource management
 **Theme:** Post-apocalyptic survival with sci-fi horror elements
+**Similar Examples:** Oxygen Not Included, Jump Space, Void Crew, FTL
 
 ### Narrative Hook
 
@@ -23,7 +24,7 @@ This is a learning project designed as preparation for a larger **Alternate Real
 ### 1. Exploration Phase (Primary Focus)
 
 - Navigate procedurally generated station levels
-- Manage limited resources (flashlight battery, oxygen, food)
+- Manage limited resources (flashlight battery, oxygen, food, water)
 - Search containers/rooms for supplies and lore
 - Avoid or sneak past alien hunters when possible
 
